@@ -1,7 +1,8 @@
 var geo = {
     
     getPosition:function(){
-        navigator.geolocation.getCurrentPosition(geo.success, geo.error,);
+        alert("getPosition");
+        navigator.geolocation.getCurrentPosition(geo.success, geo.error);
         
     },
                                                  

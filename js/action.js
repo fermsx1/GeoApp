@@ -1,5 +1,6 @@
 var fn = {
     ready:function(){
+        alert("ready");
         //Compruebta que las librerias de phonegap esten cargadas
        document.addEventListener("deviceready", geo.getPosition, false);
 
