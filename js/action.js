@@ -2,6 +2,7 @@ var fn = {
     ready:function(){
         //Compruebta que las librerias de phonegap esten cargadas
        document.addEventListener("deviceready", geo.getPosition, false);
+
         
     },
     init:function() {
